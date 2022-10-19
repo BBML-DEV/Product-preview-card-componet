@@ -1,0 +1,76 @@
+@use "../1-base/_variables"
+
+body
+    background-color: variables.$cream
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    margin-top: 200px
+
+    .container
+        width: 700px
+        height: 500px
+        background-color: variables.$white
+        border-radius: 5px
+        display: flex
+        flex-direction: row
+        align-items: center
+
+        &__banner
+            height: 100%
+            width: 50%
+            background-image: url(../img/image-product-desktop.jpg)
+            background-size: cover
+            background-position: center
+            background-repeat: no-repeat
+            border-radius: 10px 0px 0px 10px
+
+        &__content
+            height: 100%
+            width: 50%
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            padding: 0rem 2rem
+            border-radius: 10px
+
+            &__detail
+                text-transform: uppercase
+                letter-spacing: 5px
+                color: variables.$dark-grayish-blue
+                font-size: 12px
+
+            &__title
+                font-weight: 700
+                font-family: Montserrat', sans-serif'
+                font-size: 44px
+
+            &__text
+                line-height: 25px
+                color: variables.$dark-grayish-blue
+                font-size: 16px
+          
+            &__price
+                display: flex
+                flex-direction: row
+                align-items: center
+
+                h1
+                    font-family: Montserrat', sans-serif'
+                    font-weight: 700
+                    color: variables.$dark-cyan
+                    font-size: 40px
+                    margin-right: 1rem
+
+                small
+                    font-size: 12px
+                    color: variables.$dark-grayish-blue
+                    text-decoration-line: line-through
+
+            &__button
+                img
+                    margin-right: 10px
+
+
+    
