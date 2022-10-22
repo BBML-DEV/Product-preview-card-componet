@@ -1,0 +1,70 @@
+@use "variables"
+@use "../2-layout/container"
+@use "../3-components/button"
+
+@media (max-width: 700px)
+    body
+        .container
+            width: 350px
+            height: 550px
+            background-color: variables.$white
+            display: flex
+            flex-direction: column
+
+            &__banner
+                background-image: url(../img/image-product-mobile.jpg)
+                background-size: cover
+                background-position: center
+                background-repeat: no-repeat
+                width: 100%
+                border-radius: 5px 5px 0px 0px
+
+            &__content
+                background-color: variables.$white
+                width: 100%
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                padding: 1rem 1rem
+                border-radius: 0px 0px 5px 5px
+
+                &__detail
+                    text-transform: uppercase
+                    letter-spacing: 5px
+                    color: variables.$dark-grayish-blue
+                    font-size: 12px
+                    padding-bottom: 0.5rem
+
+                &__title
+                    font-weight: 700
+                    font-family: Montserrat', sans-serif'
+                    font-size: 35px
+                    padding-bottom: 0.5rem
+
+                &__text
+                    color: variables.$dark-grayish-blue
+                    font-size: 16px
+                    padding-bottom: 0.5rem
+
+                &__price
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    padding-bottom: 0.5rem
+
+                    h1
+                        font-family: Montserrat', sans-serif'
+                        font-weight: 700
+                        color: variables.$dark-cyan
+                        font-size: 40px
+                        margin-right: 1rem
+
+                    small
+                        font-size: 12px
+                        color: variables.$dark-grayish-blue
+                        text-decoration-line: line-through
+
+                &__button
+                    width: 100%
+                    img
+                        margin-right: 10px
