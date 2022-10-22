@@ -10,7 +10,3 @@ Desafio da plataforma Frontend mentor, focado para aprendizado de conceitos como
 - SASS
   - Necessário conhecimento de arquitetura de arquivos de forma profissional
 
-
-
-### Imagens do projeto
-
