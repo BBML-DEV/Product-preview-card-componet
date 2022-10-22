@@ -1,6 +1,6 @@
 ### Product preview card component
 
-Desafio da plataforma Frontend mento, focado para aprendizado de conceitos como flex-box e responsividade 
+Desafio da plataforma Frontend mentor, focado para aprendizado de conceitos como flex-box e responsividade 
 
 ## Conhecimentos Utilizados
 
